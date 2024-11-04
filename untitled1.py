@@ -1,5 +1,5 @@
 import streamlit as st
-from keras.models import load_model  # TensorFlow is required for Keras to work
+from tensorflow.keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps
 import numpy as np
 
