@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load Keras model
-model = load_model('your_model.h5')
+model = load_model('keras_model.h5')
 
 # Load labels
 with open('labels.txt', 'r') as f:
